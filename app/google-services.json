@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "264495735233",
+    "firebase_url": "https://lavender-357fd-default-rtdb.firebaseio.com",
+    "project_id": "lavender-357fd",
+    "storage_bucket": "lavender-357fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264495735233:android:184f1ca1f88964dd394f40",
+        "android_client_info": {
+          "package_name": "com.temmahadi.ecoroot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkMg4U0MtPtdCWfTCAq95xpn_Y5QFCrJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264495735233:android:0c5970e014db8783394f40",
+        "android_client_info": {
+          "package_name": "com.temmahadi.lavender"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkMg4U0MtPtdCWfTCAq95xpn_Y5QFCrJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EcoRoot" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/metal</item>
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <style name="Base.Theme.EcoRoot.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/metal</item>
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/metal</item>
+    </style>
+
+    <style name="Theme.EcoRoot" parent="Base.Theme.EcoRoot" />
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

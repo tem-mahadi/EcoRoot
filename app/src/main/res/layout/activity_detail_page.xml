@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/ecort"
+    android:orientation="vertical"
+    tools:context=".DetailPage">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="11dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/metal"
+        android:padding="16dp"
+        android:gravity="center"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailTitle"
+        android:text="Title"
+        android:layout_marginTop="14dp"
+        android:textSize="24sp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/purple_soft"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/detailImage"
+        android:padding="6dp"
+        android:src="@drawable/uploadimg"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="11dp"
+        android:text="Weight"
+        android:id="@+id/detailWeight"
+        android:textSize="18sp"
+        android:textColor="@color/purple_soft"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="11dp"
+        android:text="Description"
+        android:id="@+id/detailDesc"
+        android:textSize="18sp"
+        android:textColor="@color/purple_soft"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/purple_soft"
+        android:src="@drawable/baseline_delete_24"
+        app:tint="@color/metal"
+        />
+
+</LinearLayout>

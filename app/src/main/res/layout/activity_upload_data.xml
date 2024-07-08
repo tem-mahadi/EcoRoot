@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ecort"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".UploadData">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Data"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/purple_soft"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/uploadimg"
+            android:id="@+id/uploadImage"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/uploadTitle"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:hint="Enter title"
+            android:gravity="start|center_vertical"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/uploadDesc"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:hint="Enter description"
+            android:gravity="start|center_vertical"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/uploadweight"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:inputType="numberDecimal"
+            android:hint="Enter weight(in gm)"
+            android:gravity="start|center_vertical"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="@color/paste_color"
+            android:text="Save"
+            android:id="@+id/saveButton"
+            android:textSize="18sp"
+            android:backgroundTint="@color/purple_soft"
+            android:layout_marginTop="20dp"
+            app:cornerRadius = "20dp"/>
+
+</LinearLayout>
